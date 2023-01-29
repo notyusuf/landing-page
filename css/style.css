@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #1E2837;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  flex-shrink: 0;
+  font-family: monospace;
+  color: #F9FAF8;
+}
+
+.right {
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
