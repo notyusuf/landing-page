@@ -159,3 +159,39 @@ h2 {
   font-weight: bold;
   font-size: 1.4rem;
 }
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.banner {
+  border-radius: 10px;
+  width: 1000px;
+  height: 140px;
+  padding: 50px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
+
+.signup {
+  border: 2px solid #F9FAF8;
+}
+
+h3 {
+  color: #F9FAF8;
+  font-size: 25px;
+}
+
+.footer {
+  display: flex;
+  padding: 30px;
+  color: #F9FAF8;
+  justify-content: center;
+  background-color: #1F2937;
+}
