@@ -39,6 +39,11 @@ li {
   list-style: none;
 }
 
+li a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
 .hero-container {
   display: flex;
   background-color: #1F2937;
